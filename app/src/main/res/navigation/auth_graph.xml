@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_graph.xml">
+
+    <fragment
+        android:id="@+id/authIntroFragment"
+        android:name="com.mlbench.fitmeapp.view.fragments.authFragment.IntroductionFragment"
+        android:label="nav_auth_intro_fragment"
+        tools:layout="@layout/fragment_introduction"/>
+    <fragment
+        android:id="@+id/authSignupFragment"
+        android:name="com.mlbench.fitmeapp.view.fragments.authFragment.SignupFragment"
+        android:label="nav_auth_signup_fragment"
+        tools:layout="@layout/fragment_signup"/>
+    <fragment
+        android:id="@+id/authLoginFragment"
+        android:name="com.mlbench.fitmeapp.view.fragments.authFragment.LoginFragment"
+        android:label="nav_auth_login_fragment"
+        tools:layout="@layout/fragment_introduction"/>
+    <fragment
+        android:id="@+id/authTermConditionFragment"
+        android:name="com.mlbench.fitmeapp.view.fragments.authFragment.TermConditionFragment"
+        android:label="nav_auth_termcondition_fragment"
+        tools:layout="@layout/fragment_term_condition"/>
+
+</navigation>

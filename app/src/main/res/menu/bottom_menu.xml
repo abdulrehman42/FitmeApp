@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/userHomeFragment"
+        android:icon="@drawable/home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/userSearchFragment"
+        android:icon="@drawable/meal"
+        android:title="@string/meal_planner" />
+    <item
+        android:id="@+id/myProjectsFragment2"
+        android:icon="@drawable/shopping_icon"
+        android:title="@string/shopping_list" />
+    <item
+        android:id="@+id/notificationFragment2"
+        android:icon="@drawable/recipe"
+        android:title="@string/recipe" />
+
+</menu>

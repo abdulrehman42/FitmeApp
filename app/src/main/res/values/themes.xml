@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FitmeApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.FitmeApp" parent="Base.Theme.FitmeApp" />
+
+
+    <style name="Custom_Dialog_Full" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+
+    <style name="redBtnStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:background">@drawable/orange_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/urbanist_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingVertical" tools:ignore="NewApi">14dp</item>
+        <item name="android:paddingHorizontal" tools:ignore="NewApi">12dp</item>
+    </style>
+    <!--navigation-->
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/trip_sans_regular</item>
+    </style>
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@font/trip_sans_regular</item>
+    </style>
+</resources>
